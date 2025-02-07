@@ -1,247 +1,391 @@
 {
   "Files": [
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LaptopStoreShop.bundle.scp.css",
-      "PackagePath": "staticwebassets\\LaptopStoreShop.h71qnev3xy.bundle.scp.css"
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LaptopStoreShop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LaptopStoreShop.c0rre9yrk5.bundle.scp.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\css\\site.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\hotdeal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hotdeal.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product01.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product02.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product03.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product04.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product05.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product06.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product06.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product07.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product07.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product08.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product08.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\product09.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product09.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\shop01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shop01.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\shop02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shop02.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\img\\shop03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\shop03.png"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\js\\jquery.zoom.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\nouislider.min.js"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\favicon.ico",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\js\\site.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\LaptopStoreShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\12 - ASP.NET\\ASP.NET\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
