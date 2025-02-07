@@ -1,0 +1,3 @@
+Tuần 1:
+- Tạo project asp.net
+- Tạo giao diện shop bán laptop
