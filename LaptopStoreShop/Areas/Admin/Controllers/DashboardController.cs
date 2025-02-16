@@ -3,6 +3,7 @@
 namespace LaptopStoreShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("admin/dashboard")]
     public class DashboardController : Controller
     {
         public IActionResult Index()

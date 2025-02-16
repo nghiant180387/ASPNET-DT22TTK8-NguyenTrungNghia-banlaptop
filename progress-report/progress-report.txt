@@ -1,3 +1,9 @@
 Tuần 1:
 - Tạo project asp.net
 - Tạo giao diện shop bán laptop
+Tuàn 2:
+- Phân tích yêu cầu, xác định tính năng chính (Quản lý sản phẩm, giỏ hàng, đăng nhập, thanh toán).
+- hiết lập Entity Framework & Kết nối SQL Server.
+- Thiết kế database (Bảng Users, Laptops, Categories, Brands, Orders).
+- Đăng nhập, đăng ký, phân quyền user/admin
+- Triển khai layout UI cơ bản bằng Razor Pages

@@ -3,6 +3,7 @@
 namespace LaptopStoreShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("admin/login")]
     public class LoginController : Controller
     {
         public IActionResult Index()
