@@ -1,4 +1,9 @@
-﻿<style>
+﻿@using LaptopStoreShop.Extensions
+@{
+	var cart = Context.Session.GetString("cart");
+	var cartItems = string.IsNullOrEmpty(cart) ? new List<CartItem>() : Newtonsoft.Json.JsonConvert.DeserializeObject<List<CartItem>>(cart);
+}
+<style>
 	.dropdown {
 		position: relative;
 		display: inline-block;
@@ -42,9 +47,9 @@
 	<div id="top-header">
 		<div class="container">
 			<ul class="header-links pull-left">
-				<li><a href="#"><i class="fa fa-phone"></i> +021-95-51-84</a></li>
-				<li><a href="#"><i class="fa fa-envelope-o"></i> email@email.com</a></li>
-				<li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
+				<li><a href="#"><i class="fa fa-phone"></i> 0599.123.456</a></li>
+				<li><a href="#"><i class="fa fa-envelope-o"></i> laptopstore@email.com</a></li>
+				<li><a href="#"><i class="fa fa-map-marker"></i> Hà Nội, TP.Hồ Chí Minh</a></li>
 			</ul>
 			<ul class="header-links pull-right">
 				<li><a href="#"><i class="fa fa-dollar"></i> VNĐ</a></li>
@@ -59,9 +64,9 @@
 								Trang cá nhân
 							</button>
 
-							<button class="btn btn-success">
+							<a class="btn btn-success" asp-controller="Login" asp-action="Logout">
 								Đăng xuất
-							</button>
+							</a>
 						</div>
 					</li>
 				}
@@ -100,47 +105,61 @@
 
 				<div class="col-md-3 clearfix">
 					<div class="header-ctn">
-
-						<div class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-								<i class="fa fa-shopping-cart"></i>
-								<span>Giỏ hàng</span>
-								<div class="qty">3</div>
-							</a>
-							<div class="cart-dropdown">
-								<div class="cart-list">
-									<div class="product-widget">
-										<div class="product-img">
-											<img src="~/assets/img/product01.png" alt="">
-										</div>
-										<div class="product-body">
-											<h3 class="product-name"><a href="#">product name goes here</a></h3>
-											<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
-										</div>
-										<button class="delete"><i class="fa fa-close"></i></button>
+						@if (Context.Session.GetString("cart") == null)
+						{
+							<div class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+									<i class="fa fa-shopping-cart"></i>
+									<span>Giỏ hàng</span>
+									<div class="qty">0</div>
+								</a>
+								<div class="cart-dropdown">
+									<div class="cart-list">
 									</div>
-
-									<div class="product-widget">
-										<div class="product-img">
-											<img src="~/assets/img/product02.png" alt="">
-										</div>
-										<div class="product-body">
-											<h3 class="product-name"><a href="#">product name goes here</a></h3>
-											<h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
-										</div>
-										<button class="delete"><i class="fa fa-close"></i></button>
+									<div class="cart-summary">
+										<small>0 sản phẩm</small>
+										<h5>Tổng: 0 VNĐ</h5>
 									</div>
-								</div>
-								<div class="cart-summary">
-									<small>3 sản phẩm</small>
-									<h5>Tổng: 2940 VNĐ</h5>
-								</div>
-								<div class="cart-btns">
-									<a href="#">Xem giỏ hàng</a>
-									<a href="#">Thanh toán  <i class="fa fa-arrow-circle-right"></i></a>
 								</div>
 							</div>
-						</div>
+						}
+						else
+						{
+							<div class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+									<i class="fa fa-shopping-cart"></i>
+									<span>Giỏ hàng</span>
+									<div class="qty">@cartItems.Sum(c => c.Quantity)</div>
+								</a>
+								<div class="cart-dropdown">
+									<div class="cart-list">
+											@foreach (var item in cartItems)
+											{
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="@item.ImageUrl" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">@item.Name</a></h3>
+													<h4 class="product-price"><span class="qty">@item.Quantity</span>@item.Price VNĐ</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+										}
+									</div>
+									<div class="cart-summary">
+										<small>3 sản phẩm</small>
+										<h5>Tổng: 2940 VNĐ</h5>
+									</div>
+									<div class="cart-btns">
+										<a href="#">Xem giỏ hàng</a>
+										<a href="#">Thanh toán  <i class="fa fa-arrow-circle-right"></i></a>
+									</div>
+								</div>
+								
+							</div>
+						}
+							
 						<div class="menu-toggle">
 							<a href="#">
 								<i class="fa fa-bars"></i>
@@ -159,15 +178,19 @@
 		<div id="responsive-nav">
 			<ul class="main-nav nav navbar-nav">
 				<li class="active"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-				<li><a href="#">Laptop</a></li>
-				<li><a href="#">Thương hiệu</a></li>
-				<li><a href="#">Thể loại</a></li>
-				<li><a href="#">Bài viết</a></li>
-				<li><a href="#">Liên hệ</a></li>
+				<li><a asp-controller="Product" asp-action="Index">Laptop</a></li>
+				<li><a asp-controller="Category" asp-action="Index">Thương hiệu</a></li>
+				<li><a asp-controller="Home" asp-action="Index">Thể loại</a></li>
+				<li><a asp-controller="Blog" asp-action="Index">Bài viết</a></li>
+				<li><a asp-controller="Contact" asp-action="Index">Liên hệ</a></li>
 			</ul>
 		</div>
 	</div>
 </nav>
+<script>
+	var cartItems = @Html.Raw(Json.Serialize(cartItems));
+	console.log("Cart Items:", cartItems);
+</script>
 <script>
 	document.addEventListener("DOMContentLoaded", function () {
 		let dropdownBtn = document.getElementById("dropdownBtn");

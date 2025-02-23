@@ -1,5 +1,39 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model LaptopStoreShop.Models.User
+
 @{
+    ViewData["Title"] = "Tạo tài khoản Admin";
 }
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Tạo Tài Khoản Admin</h2>
+
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label>Họ và Tên</label>
+            <input asp-for="FullName" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input asp-for="Email" type="email" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label>Mật khẩu</label>
+            <input asp-for="PasswordHash" type="password" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label>Số điện thoại</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label>Địa chỉ</label>
+            <input asp-for="Address" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">✅ Tạo Admin</button>
+        <a asp-action="Index" class="btn btn-secondary">🔙 Quay lại</a>
+    </form>
+</div>

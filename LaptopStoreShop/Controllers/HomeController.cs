@@ -1,21 +1,28 @@
 using System.Diagnostics;
+using LaptopStoreShop.Data;
 using LaptopStoreShop.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LaptopStoreShop.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ApplicationDbContext _context;
+        public HomeController(ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var products = _context.Laptops
+                .Include(l => l.Category)
+                .Include(l => l.LaptopImages)
+                .Where(l => l.Status == 1)
+                .OrderBy(x => Guid.NewGuid())
+                .ToList();
+            return View(products);
         }
     }
 }

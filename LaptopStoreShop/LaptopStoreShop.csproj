@@ -19,6 +19,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="wwwroot\assets\admin\" />
     <Folder Include="wwwroot\admin\" />
+    <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
 </Project>

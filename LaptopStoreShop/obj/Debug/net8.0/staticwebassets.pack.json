@@ -7809,6 +7809,38 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\uploads\\0635c75d-3417-44cf-b98c-2c0ab9966ae5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0635c75d-3417-44cf-b98c-2c0ab9966ae5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\uploads\\5c01ac1c-a091-4dea-a233-e550abb71bca.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5c01ac1c-a091-4dea-a233-e550abb71bca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\uploads\\986f95ae-f6b4-488a-96b7-af63e5d36b63.jpg",
+      "PackagePath": "staticwebassets\\uploads\\986f95ae-f6b4-488a-96b7-af63e5d36b63.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\uploads\\c0f32287-df7a-4bb1-be7c-233de32fe55c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c0f32287-df7a-4bb1-be7c-233de32fe55c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\uploads\\cd9e4ba8-c2f8-44ef-bc72-9f85a268f8e7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cd9e4ba8-c2f8-44ef-bc72-9f85a268f8e7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\uploads\\cf577ece-ddb8-41c7-b016-59ea954a0986.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cf577ece-ddb8-41c7-b016-59ea954a0986.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\uploads\\d0060a08-00bf-4ea6-ba46-0fea62b1f600.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d0060a08-00bf-4ea6-ba46-0fea62b1f600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\ASPNET-DT22TTK8-NguyenTrungNghia-banlaptop\\LaptopStoreShop\\wwwroot\\uploads\\e2492b1a-5297-4e30-acc1-082860147e8d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e2492b1a-5297-4e30-acc1-082860147e8d.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LaptopStoreShop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

@@ -31,5 +31,6 @@ namespace LaptopStoreShop.Models
         public DateTime? UpdatedAt { get; set; }
 
         public byte Status { get; set; } = 1;
+        public List<LaptopImage> LaptopImages { get; set; }
     }
 }

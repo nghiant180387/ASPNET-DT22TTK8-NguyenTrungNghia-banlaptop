@@ -1,5 +1,124 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model Laptop
+
 @{
+    ViewData["Title"] = "Chỉnh sửa Laptop";
 }
+
+<h2 class="mb-4 text-center">Chỉnh sửa Laptop</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="BrandId" />
+    <input type="hidden" asp-for="CategoryId" />
+    <div class="row">
+        <!-- Cột trái: Thông tin laptop -->
+        <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+                <h4 class="mb-3">Thông tin Laptop</h4>
+                <input type="hidden" asp-for="Id" />
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Tên Laptop</label>
+                    <input asp-for="Name" class="form-control" required />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="col-12 d-flex justìy-content-between">
+                    <div class="col-6 mb-3">
+                        <label class="form-label fw-bold">Thương hiệu</label>
+                        <select asp-for="BrandId" asp-items="ViewBag.Brands" class="form-select">
+                            <option value="">-- Chọn thương hiệu --</option>
+                        </select>
+                        <span asp-validation-for="BrandId" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-6 mb-3">
+                        <label class="form-label fw-bold">Loại Laptop</label>
+                        <select asp-for="CategoryId" asp-items="ViewBag.Category" class="form-select">
+                            <option value="">-- Chọn loại --</option>
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Số lượng</label>
+					<input asp-for="Stock" class="form-control" type="number" required />
+				</div>
+                <div class="col-12 d-flex justìy-content-between">
+					<div class="col-6 mb-3">
+						<label class="form-label fw-bold">Giá (VNĐ)</label>
+						<input asp-for="Price" class="form-control" type="number" required />
+						<span asp-validation-for="Price" class="text-danger"></span>
+					</div>
+                    <div class="col-6">
+                        <label class="form-label fw-bold">Trạng thái</label>
+                        <select asp-for="Status" class="form-select" required>
+                            <option value="0">Ẩn</option>
+                            <option value="1">Hiện</option>
+                        </select>
+                    </div>
+				</div>
+                
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Mô tả</label>
+                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cột phải: Hình ảnh -->
+        <div class="col-md-6 mb-3">
+            <label class="form-label fw-bold">Hình ảnh hiện tại</label>
+            <div class="text-center">
+                <label>Hình ảnh hiện tại</label>
+                <div class="my-2 d-flex flex-wrap">
+                    @foreach (var image in Model.LaptopImages)
+                    {
+                        <img src="@image.ImageUrl" class="img-thumbnail m-1" width="100" height="100" />
+                    }
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold">Chọn ảnh mới (nếu muốn thay thế)</label>
+                <input type="file" id="imageUpload" name="images" multiple class="form-control py-2 my-2" accept="image/*" />
+                <div id="imagePreview" class="my-2 d-flex flex-wrap"></div>
+            </div>
+        </div>
+
+       
+
+    </div>
+
+    <div class="text-center mt-4">
+        <button type="submit" class="btn btn-primary px-4">
+            <i class="fas fa-save"></i> Lưu thay đổi
+        </button>
+        <a asp-action="Index" class="btn btn-secondary px-4">
+            <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
+    </div>
+</form>
+<script>
+    document.getElementById("imageUpload").addEventListener("change", function(event) {
+        let preview = document.getElementById("imagePreview");
+        preview.innerHTML = "";
+        let files = event.target.files;
+
+        if (files.length > 0) {
+            for (let i = 0; i < files.length; i++) {
+                let file = files[i];
+                let reader = new FileReader();
+                reader.onload = function(e) {
+                    let img = document.createElement("img");
+                    img.src = e.target.result;
+                    img.className = "img-thumbnail m-1";
+                    img.style.width = "100px";
+                    img.style.height = "100px";
+                    preview.appendChild(img);
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+    });
+</script>

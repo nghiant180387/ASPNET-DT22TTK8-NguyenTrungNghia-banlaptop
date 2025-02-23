@@ -1,5 +1,75 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model LaptopStoreShop.Models.User
+
 @{
+    ViewData["Title"] = "Chỉnh sửa người dùng";
 }
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Chỉnh Sửa Thông Tin Người Dùng</h2>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="PasswordHash" id="currentPassword" />
+
+        <div class="form-group">
+            <label>Họ và Tên</label>
+            <input asp-for="FullName" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input asp-for="Email" type="email" class="form-control" disabled />
+        </div>
+
+        <div class="form-group">
+            <label>Số điện thoại</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label>Địa chỉ</label>
+            <input asp-for="Address" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label>Quyền</label>
+            <select asp-for="Role" class="form-control">
+                <option>User</option>
+                <option>Admin</option>
+            </select>
+        </div>
+        <div class="accordion mb-3" id="passwordAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#passwordCollapse" aria-expanded="true" aria-controls="passwordCollapse">
+                        Sửa mật khẩu
+                    </button>
+                </h2>
+                <div id="passwordCollapse" class="accordion-collapse collapse" data-bs-parent="#passwordAccordion">
+                    <div class="accordion-body">
+                        <div class="form-group">
+                            <label for="PasswordHash">Mật khẩu mới</label>
+                            <input type="password" id="PasswordHash" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success">💾 Lưu thay đổi</button>
+        <a asp-action="Index" class="btn btn-secondary">🔙 Quay lại</a>
+    </form>
+</div>
+
+
+
+<script>
+    function updatePassword() {
+        let newPassword = document.getElementById("newPassword").value;
+        if (newPassword) {
+            document.getElementById("currentPassword").value = newPassword;
+        }
+        document.getElementById("newPassword").value = "";
+        new bootstrap.Modal(document.getElementById("changePasswordModal")).hide();
+    }
+</script>

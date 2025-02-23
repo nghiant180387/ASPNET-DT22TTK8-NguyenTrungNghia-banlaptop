@@ -1,6 +1,9 @@
-﻿@{
-    ViewData["Title"] = "Payment";
+﻿@model List<CartItem>
+
+@{
+	ViewData["Title"] = "Payment";
 }
+
 <div id="breadcrumb" class="section">
 	<div class="container">
 		<div class="row">
@@ -14,10 +17,10 @@
 		</div>
 	</div>
 </div>
+
 <div class="section">
 	<div class="container">
 		<div class="row">
-
 			<div class="col-md-7">
 				<div class="billing-details">
 					<div class="section-title">
@@ -47,18 +50,24 @@
 						<div><strong>Sản phẩm</strong></div>
 						<div><strong>Giá tiền</strong></div>
 					</div>
+
 					<div class="order-products">
-						@* Foreach *@
-						<div class="order-col">
-							<div>1x Product Name Goes Here</div>
-							<div>$980.00</div>
-						</div>
+						@foreach (var item in Model)
+						{
+							<div class="order-col">
+								<img src="@item.ImageUrl" alt="@item.Name" style="width: 80px; height: 80px" />
+								<div>@item.Quantity x @item.Name</div>
+								<div>@item.Price VNĐ</div>
+							</div>
+						}
 					</div>
+
 					<div class="order-col">
 						<div><strong>Tổng tiền</strong></div>
-						<div><strong class="order-total">$2940.00</strong></div>
+						<div><strong class="order-total">@Model.Sum(x => x.Quantity * x.Price) VNĐ</strong></div>
 					</div>
 				</div>
+
 				<div class="payment-method">
 					<div style="margin-bottom: 10px"><strong>Phương thức thanh toán</strong></div>
 					<div class="input-radio">
@@ -68,7 +77,7 @@
 							Thanh toán VNPay
 						</label>
 						<div class="caption">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</div>
 					</div>
 					<div class="input-radio">
@@ -78,9 +87,9 @@
 							Thanh toán Momo
 						</label>
 						<div class="caption">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</div>
-					</div>					
+					</div>
 				</div>
 				<a href="#" class="primary-btn order-submit">Thanh toán</a>
 			</div>
