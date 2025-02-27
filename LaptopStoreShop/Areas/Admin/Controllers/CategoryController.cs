@@ -18,17 +18,39 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var categories = _context.Categories.ToList();
             return View(categories);
         }
         [HttpGet("create")]
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }
         [HttpPost("create")]
         public async Task<IActionResult> Create(Category category)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
             _context.Add(category);
             await _context.SaveChangesAsync();
             if (category.CategoryName == null)
@@ -43,6 +65,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpGet("edit/{id}")]
         public IActionResult Edit(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var category = _context.Categories.Find(id);
             return View(category);
         }
@@ -50,7 +79,14 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpPost("edit/{id}")]
         public IActionResult Edit(Category model)
         {
-                var category = _context.Categories.Find(model.Id);
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
+            var category = _context.Categories.Find(model.Id);
                 if (category == null)
                 {
                     return NotFound();
@@ -69,6 +105,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [Route("delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var category = await _context.Categories.FindAsync(id);
             if (category == null)
             {

@@ -56,15 +56,12 @@
 				@if (Context.Session.GetString("Name") != null)
 				{
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+						<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" style="cursor: pointer">
 							<i class="fa fa-user-o"></i> Xin chào, @Context.Session.GetString("Name")
 						</a>
-						<div class="cart-dropdown">
-							<button class="btn btn-success">
-								Trang cá nhân
-							</button>
+						<div class="cart-dropdown" style="margin-top:10px">
 
-							<a class="btn btn-success" asp-controller="Login" asp-action="Logout">
+							<a class="search-btn" asp-controller="Login" asp-action="Logout" style="background-color: red; padding: 15px; border-radius: 8px">
 								Đăng xuất
 							</a>
 						</div>
@@ -91,13 +88,11 @@
 				
 				<div class="col-md-6">
 					<div class="header-search">
-						<form style="display:flex">
-							<select class="input-select">
-								<option value="0">Tất cả sản phẩm</option>
-								<option value="1">Asus</option>
-								<option value="1">DELL</option>
-							</select>
-							<input class="input" placeholder="Nhập từ khóa">
+						<form method="get" asp-controller="Product" asp-action="Index" style="display:flex">
+							<a class="input-select" style="padding-top: 10px;">
+								Tất cả sản phẩm
+							</a>
+							<input class="input" placeholder="Nhập từ khóa" name="keyword">
 							<button class="search-btn">Tìm</button>
 						</form>
 					</div>
@@ -141,19 +136,22 @@
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">@item.Name</a></h3>
-													<h4 class="product-price"><span class="qty">@item.Quantity</span>@item.Price VNĐ</h4>
+													<h4 class="product-price"><span class="qty"><strong>@item.Quantity</strong></span>@item.Price.ToString("N0") VNĐ</h4>
 												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
+												<form asp-action="RemoveFromCart" asp-controller="Payment" method="post" class="d-inline">
+													<input type="hidden" name="id" value="@item.Id" />
+													<button type="submit" class="delete"><i class="fa fa-close"></i></button>
+												</form>
+												
 											</div>
 										}
 									</div>
 									<div class="cart-summary">
-										<small>3 sản phẩm</small>
-										<h5>Tổng: 2940 VNĐ</h5>
+										<small>@cartItems.Sum(c => c.Quantity) sản phẩm</small>
+										<h5>Tổng: @cartItems.Sum(x => x.Quantity * x.Price).ToString("N0") VNĐ</h5>
 									</div>
 									<div class="cart-btns">
-										<a href="#">Xem giỏ hàng</a>
-										<a href="#">Thanh toán  <i class="fa fa-arrow-circle-right"></i></a>
+										<a asp-controller="Payment" asp-action="Index" style="width: 100%">Thanh toán  <i class="fa fa-arrow-circle-right"></i></a>
 									</div>
 								</div>
 								
@@ -177,13 +175,20 @@
 	<div class="container">
 		<div id="responsive-nav">
 			<ul class="main-nav nav navbar-nav">
-				<li class="active"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-				<li><a asp-controller="Product" asp-action="Index">Laptop</a></li>
-				<li><a asp-controller="Category" asp-action="Index">Thương hiệu</a></li>
-				<li><a asp-controller="Home" asp-action="Index">Thể loại</a></li>
-				<li><a asp-controller="Blog" asp-action="Index">Bài viết</a></li>
-				<li><a asp-controller="Contact" asp-action="Index">Liên hệ</a></li>
+				<li class="@(ViewData["ActivePage"] != null && ViewData["ActivePage"].ToString() == "Home" ? "active" : "")">
+					<a asp-controller="Home" asp-action="Index">Trang chủ</a>
+				</li>
+				<li class="@(ViewData["ActivePage"] != null && ViewData["ActivePage"].ToString() == "Product" ? "active" : "")">
+					<a asp-controller="Product" asp-action="Index">Laptop</a>
+				</li>
+				<li class="@(ViewData["ActivePage"] != null && ViewData["ActivePage"].ToString() == "Blog" ? "active" : "")">
+					<a asp-controller="Blog" asp-action="Index">Bài viết</a>
+				</li>
+				<li class="@(ViewData["ActivePage"] != null && ViewData["ActivePage"].ToString() == "Contact" ? "active" : "")">
+					<a asp-controller="Contact" asp-action="Index">Liên hệ</a>
+				</li>
 			</ul>
+
 		</div>
 	</div>
 </nav>

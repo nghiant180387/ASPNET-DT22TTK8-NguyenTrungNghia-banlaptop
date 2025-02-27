@@ -18,17 +18,38 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var brands = _context.Brands.ToList();
             return View(brands);
         }
         [HttpGet("create")]
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }
         [HttpPost("create")]
         public async Task<IActionResult> Create(Brand brand)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             _context.Add(brand);
             await _context.SaveChangesAsync();
             if (brand.BrandName == null)
@@ -43,6 +64,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpGet("edit/{id}")]
         public IActionResult Edit(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var brands = _context.Brands.Find(id);
             return View(brands);
         }
@@ -50,6 +78,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpPost("edit/{id}")]
         public IActionResult Edit(Brand model)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var brand = _context.Brands.Find(model.Id);
             if (brand == null)
             {
@@ -69,6 +104,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [Route("delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var brand = await _context.Brands.FindAsync(id);
             if (brand == null)
             {

@@ -57,13 +57,16 @@
                         </select>
                     </div>
 				</div>
-                
-
                 <div class="mb-3">
                     <label class="form-label fw-bold">Mô tả</label>
-                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                    <textarea asp-for="Description" class="form-control" id="editor"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
+
+                <script>
+                    CKEDITOR.replace('editor');
+                </script>
+
             </div>
         </div>
 

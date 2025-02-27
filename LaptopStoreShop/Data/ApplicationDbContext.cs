@@ -10,6 +10,8 @@ namespace LaptopStoreShop.Data
         public DbSet<Laptop> Laptops { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<LaptopImage> LaptopImages { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
@@ -32,6 +34,12 @@ namespace LaptopStoreShop.Data
                 .WithMany(s => s.LaptopImages)
                 .HasForeignKey(img => img.LaptopId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<OrderDetail>()
+               .HasOne(od => od.Order)
+               .WithMany(o => o.OrderDetails)
+               .HasForeignKey(od => od.OrderId)
+               .HasPrincipalKey(o => o.OrderId);
         }
     }
 }

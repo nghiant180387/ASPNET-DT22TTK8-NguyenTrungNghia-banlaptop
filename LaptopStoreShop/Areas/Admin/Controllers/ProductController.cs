@@ -22,6 +22,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var laptops = _context.Laptops
                 .Include(s => s.Category)
                 .Include(s => s.Brand)
@@ -33,6 +40,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpGet("create")]
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             ViewBag.Category = new SelectList(_context.Categories, "Id", "CategoryName");
             ViewBag.Brands = new SelectList(_context.Brands, "Id", "BrandName");
             return View();
@@ -41,6 +55,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpPost("create")]
         public async Task<IActionResult> Create(Laptop laptop, List<IFormFile> images)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             ViewBag.Category = new SelectList(_context.Categories, "Id", "CategoryName");
             ViewBag.Brands = new SelectList(_context.Brands, "Id", "BrandName");
 
@@ -80,6 +101,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpGet("edit")]
         public async Task<IActionResult> Edit(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var laptop = await _context.Laptops
                 .Include(l => l.LaptopImages) 
                 .FirstOrDefaultAsync(l => l.Id == id);
@@ -100,6 +128,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpPost("edit")]
         public async Task<IActionResult> Edit (int id, Laptop laptop, List<IFormFile> images)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var existingLaptop = _context.Laptops
               .Include(s => s.LaptopImages)
               .FirstOrDefault(s => s.Id == id);
@@ -161,6 +196,13 @@ namespace LaptopStoreShop.Areas.Admin.Controllers
         [HttpGet("delete")]
         public IActionResult Delete(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            Console.WriteLine(role);
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Index", "Login");
+            }
             var laptop = _context.Laptops
                 .Include(s => s.LaptopImages)
                 .FirstOrDefault(s => s.Id == id);

@@ -35136,6 +35136,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0379962c-2b78-4f2e-ba74-10b01cfc00d4.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/0379962c-2b78-4f2e-ba74-10b01cfc00d4.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>o1ylb0ar42</Fingerprint>
+      <Integrity>nOo8oLKcqkVx9iqMe9Rxlxmr7OBJefMWrI45CpTC4b8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0379962c-2b78-4f2e-ba74-10b01cfc00d4.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\03d3655e-9aad-4c5d-af86-8af7d6f6ff68.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/03d3655e-9aad-4c5d-af86-8af7d6f6ff68.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6yhtugpttz</Fingerprint>
+      <Integrity>Hu5OWLeo39YsW8sIcVpZA5Q0D/jbWUaRNOZtiT4u9BI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\03d3655e-9aad-4c5d-af86-8af7d6f6ff68.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0635c75d-3417-44cf-b98c-2c0ab9966ae5.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopStoreShop</SourceId>
@@ -35153,6 +35189,258 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0635c75d-3417-44cf-b98c-2c0ab9966ae5.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\06eb28f2-f3fd-42a9-b7e6-7c4e1240f0a3.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/06eb28f2-f3fd-42a9-b7e6-7c4e1240f0a3.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ve8tmmvest</Fingerprint>
+      <Integrity>KdJSmTe2EgzDTUYW4GRJY2AQJn1vynvLtnIfxPFKC78=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\06eb28f2-f3fd-42a9-b7e6-7c4e1240f0a3.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a6de718-0fd3-4db0-9808-02743eab1596.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/0a6de718-0fd3-4db0-9808-02743eab1596.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s8hty8vvhn</Fingerprint>
+      <Integrity>dNGEH+osPD33vw4IQTfMKChVxTBHQsBYisd1BWIztcE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a6de718-0fd3-4db0-9808-02743eab1596.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0c206bb5-7920-43b8-9568-b18f988c5c7e.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/0c206bb5-7920-43b8-9568-b18f988c5c7e.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jqbocitop4</Fingerprint>
+      <Integrity>azWYJQZZU7RQmYFTKS4G3DIuHcYpSYY3RG6DL3eNy+U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0c206bb5-7920-43b8-9568-b18f988c5c7e.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e9233c6-3763-4cef-9e5f-a56240f1716b.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/0e9233c6-3763-4cef-9e5f-a56240f1716b.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>89iiiv2ipo</Fingerprint>
+      <Integrity>7Prb7jCo4jBLPbmchlOaKgYBkWI7pRfSUUCPwGA/7oA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e9233c6-3763-4cef-9e5f-a56240f1716b.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\12755a7a-75cc-4b42-a40d-2d9f21e7468b.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/12755a7a-75cc-4b42-a40d-2d9f21e7468b.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5dnfd1zt6d</Fingerprint>
+      <Integrity>95rGdjq0IouYv+eA9eYNSDcuLnRT6fTCyf1KuMs/1mY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\12755a7a-75cc-4b42-a40d-2d9f21e7468b.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\28520592-8309-45ec-b6f3-9a8546bdc3e5.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/28520592-8309-45ec-b6f3-9a8546bdc3e5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zx5uf38l0u</Fingerprint>
+      <Integrity>aWs+Oadm4WyDSGJzyVGbYmJygjj7G12Gf9jlZr7sL38=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\28520592-8309-45ec-b6f3-9a8546bdc3e5.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3c37960d-a7e8-4da1-b941-269a1ae069e8.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/3c37960d-a7e8-4da1-b941-269a1ae069e8.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>14itp5dbsi</Fingerprint>
+      <Integrity>8X0fAUQGa+Yv0kW3zVjGlw7gI/Gd+zsJo1lTN6il7Qk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3c37960d-a7e8-4da1-b941-269a1ae069e8.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4071e183-ee91-4386-a8d9-21da09180afd.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/4071e183-ee91-4386-a8d9-21da09180afd.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rmhtwa6s7v</Fingerprint>
+      <Integrity>g+ZPe591tz0bmvbAOx7Vcce3NYIbepTK9lYr6wBVyPc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4071e183-ee91-4386-a8d9-21da09180afd.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\43f15c2f-603c-4dd0-bc08-64927283fff1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/43f15c2f-603c-4dd0-bc08-64927283fff1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2my2jjhgj9</Fingerprint>
+      <Integrity>RrUh9BNrsQnjkOkaIAgFwXptkvBEagQ2GUb7x4bERBU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\43f15c2f-603c-4dd0-bc08-64927283fff1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\43f936ba-041d-41da-8610-ae710590e25d.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/43f936ba-041d-41da-8610-ae710590e25d.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ak6tuwr7hm</Fingerprint>
+      <Integrity>hmsypcamKlHjMa/dmegjfFGPz4xvMkwY5wpjxrhL6Ls=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\43f936ba-041d-41da-8610-ae710590e25d.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50ec6597-1a10-4252-919b-30a0d1d061c1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/50ec6597-1a10-4252-919b-30a0d1d061c1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>njgwfdxcxv</Fingerprint>
+      <Integrity>w+4q6XzMPf1uMzLL2W2NMe/gVRBLctKT/LxDJSYYGis=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50ec6597-1a10-4252-919b-30a0d1d061c1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\549ed1a7-ead4-47cc-8b4c-46cd46fb2b7c.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/549ed1a7-ead4-47cc-8b4c-46cd46fb2b7c.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sl6gnmdrk2</Fingerprint>
+      <Integrity>cKQDP5zURDB4Bxv9l9/h3j/18Nz8snlmJQDVkqDOiNc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\549ed1a7-ead4-47cc-8b4c-46cd46fb2b7c.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\54ab3844-a63c-4669-9eaa-653bd3aebab6.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/54ab3844-a63c-4669-9eaa-653bd3aebab6.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e9uhnhjfi9</Fingerprint>
+      <Integrity>cv6Y+bKOibtQMXApnqFxRdJ8MCtbGZ/cMF3+cMmSZ9Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\54ab3844-a63c-4669-9eaa-653bd3aebab6.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\56b73a1b-3902-4037-9c4b-586cc63122fe.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/56b73a1b-3902-4037-9c4b-586cc63122fe.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d3fo519lra</Fingerprint>
+      <Integrity>afsR25xF0XZjHV0B6GTDieKKMxvVxqGqXMkSP/NGUnY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\56b73a1b-3902-4037-9c4b-586cc63122fe.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5c01ac1c-a091-4dea-a233-e550abb71bca.jpg'))">
       <SourceType>Package</SourceType>
@@ -35172,6 +35460,240 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5c01ac1c-a091-4dea-a233-e550abb71bca.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e225ab1-6596-4513-8dd0-e166c2566d8c.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/5e225ab1-6596-4513-8dd0-e166c2566d8c.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ukxlyiojwj</Fingerprint>
+      <Integrity>Pse63ECaM0hRBaUCoNpbs5eIUEYvst1Qv5mndd4INUc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e225ab1-6596-4513-8dd0-e166c2566d8c.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\636d3152-8418-41c9-90cd-f003116d8aa5.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/636d3152-8418-41c9-90cd-f003116d8aa5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tir77yvtwr</Fingerprint>
+      <Integrity>6xlB3rJap0KOlM/Pch8gJX9ljNGswgdc8bF59rogs64=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\636d3152-8418-41c9-90cd-f003116d8aa5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\64060231-129e-4a6c-9f35-70629417e7b6.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/64060231-129e-4a6c-9f35-70629417e7b6.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q2soey8qwn</Fingerprint>
+      <Integrity>IjoJvOWmLnw5LdTOl6hj72uqbL+7v7kOr2JXzbeoKFg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\64060231-129e-4a6c-9f35-70629417e7b6.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69116e3d-7571-4820-998d-ed68564f2c74.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/69116e3d-7571-4820-998d-ed68564f2c74.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7rdz3r6gjq</Fingerprint>
+      <Integrity>Y79+hi+kBqhiwcO0cIrEcgUKOVoNZyCF5MeYi9ZVocw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69116e3d-7571-4820-998d-ed68564f2c74.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\70f77a83-ed50-413f-a785-3b0584fba831.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/70f77a83-ed50-413f-a785-3b0584fba831.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>srxm2efecp</Fingerprint>
+      <Integrity>eP6RxGUUNfs9dhIUvbE3KvilYGcJibWUg9gbisHxuSE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\70f77a83-ed50-413f-a785-3b0584fba831.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\73447c44-3002-489b-a26a-ed2bbf959a7d.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/73447c44-3002-489b-a26a-ed2bbf959a7d.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8j5qi7wac9</Fingerprint>
+      <Integrity>fBPFm23Lv2rm46NM7p9sO2vPk3Uo834T1IeheRMpu0M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\73447c44-3002-489b-a26a-ed2bbf959a7d.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\74c1e0e7-868b-4832-b93e-dfb09906eb8a.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/74c1e0e7-868b-4832-b93e-dfb09906eb8a.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>64z2ksnkiy</Fingerprint>
+      <Integrity>RhKuw52Tfsc5VUPRJ+2vFmZs6NF7hwFBN+1+NoEQN5Y=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\74c1e0e7-868b-4832-b93e-dfb09906eb8a.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7552ae44-12cd-4a8b-b1e1-0c241c4083bf.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/7552ae44-12cd-4a8b-b1e1-0c241c4083bf.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hpz25lv1i5</Fingerprint>
+      <Integrity>ReooxcdwGRhinFSg3ypFHiBGEQ0XT+AGfLJwXENV+XA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7552ae44-12cd-4a8b-b1e1-0c241c4083bf.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7be868f4-6998-4818-b656-d4b1f2904484.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/7be868f4-6998-4818-b656-d4b1f2904484.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8h3hgygofu</Fingerprint>
+      <Integrity>JPwhQXS8Cs3Su1B2Sj+LAGabPBJdzfvC46tSf/VZrFc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7be868f4-6998-4818-b656-d4b1f2904484.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7f82d86e-1739-4ac5-a6a9-f1cf77c5be96.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/7f82d86e-1739-4ac5-a6a9-f1cf77c5be96.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>84wnfne6lm</Fingerprint>
+      <Integrity>WI2biQFP4DJ7sBDTmymhfJx09ho63oN1BcVUVu3qMyM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7f82d86e-1739-4ac5-a6a9-f1cf77c5be96.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\81345657-4c11-443b-9a6c-236831bc4d17.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/81345657-4c11-443b-9a6c-236831bc4d17.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xo2scqg3kx</Fingerprint>
+      <Integrity>ofCfFK9eYGZdvtumUVGNG+o1uQI7Nr+FzHsXpv+GN5g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\81345657-4c11-443b-9a6c-236831bc4d17.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8c7b68eb-f867-46b7-b850-7f3104a6e1cf.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/8c7b68eb-f867-46b7-b850-7f3104a6e1cf.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>97gjgqad1o</Fingerprint>
+      <Integrity>O48Cn/+xhozwHZ4gRDa1mrZImSTSZRv1BVmRCsXw3zk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8c7b68eb-f867-46b7-b850-7f3104a6e1cf.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\94b5bab3-442e-4f94-bac4-ab85b287a1cf.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/94b5bab3-442e-4f94-bac4-ab85b287a1cf.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>94s0zbbxqp</Fingerprint>
+      <Integrity>p3If9JUHIs+zRolz5zO4RcnGWVPO97nO6Ds7lSeUfkU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\94b5bab3-442e-4f94-bac4-ab85b287a1cf.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\986f95ae-f6b4-488a-96b7-af63e5d36b63.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopStoreShop</SourceId>
@@ -35190,6 +35712,150 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\986f95ae-f6b4-488a-96b7-af63e5d36b63.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9e1c12a8-a401-4405-b7d5-0f74a925cd5d.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/9e1c12a8-a401-4405-b7d5-0f74a925cd5d.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bkuhm46keb</Fingerprint>
+      <Integrity>+3os54Mv1ZIOIarCTrgQDilf1/lDcR7atlnpoHLHnLg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9e1c12a8-a401-4405-b7d5-0f74a925cd5d.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9f5a460a-11ee-4d72-893a-9999a78b3c59.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/9f5a460a-11ee-4d72-893a-9999a78b3c59.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t6dafoxp8n</Fingerprint>
+      <Integrity>u3//+9RPtkDce8iVY+lrOvi7KsVVNvjRGLrYhHKhhy4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9f5a460a-11ee-4d72-893a-9999a78b3c59.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a3043dd6-8178-4cba-bda1-4924cbca18ef.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/a3043dd6-8178-4cba-bda1-4924cbca18ef.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>duwi9rzvu5</Fingerprint>
+      <Integrity>O6RRXlxbd1WdJdNtVSrSrWSjXEvw4NbAYTj0PFdSs50=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a3043dd6-8178-4cba-bda1-4924cbca18ef.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\af4764f2-7441-45f6-92a1-5bad99906038.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/af4764f2-7441-45f6-92a1-5bad99906038.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fby493p8f8</Fingerprint>
+      <Integrity>RVTct5kBbt+DXJcI4LdetCqNSDWF9UIo8CVZBb+YIf8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\af4764f2-7441-45f6-92a1-5bad99906038.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b27e2fe8-8cea-4e63-98df-88feddb0f02f.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/b27e2fe8-8cea-4e63-98df-88feddb0f02f.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p92qf2wlbz</Fingerprint>
+      <Integrity>A3tTAOGaq5aTGk5n4rMrX3MDjnSrL8AA/Q3EKfOWCRM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b27e2fe8-8cea-4e63-98df-88feddb0f02f.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b4ea5206-f7a5-4865-b3e9-4f119ff82ecc.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/b4ea5206-f7a5-4865-b3e9-4f119ff82ecc.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1438e8bglf</Fingerprint>
+      <Integrity>wV88LDaTxKB7H7rYwesO4NgLvPu5bvBivZwTbxmgj+Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b4ea5206-f7a5-4865-b3e9-4f119ff82ecc.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b74f91d4-f575-4192-94f6-68fc85189937.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/b74f91d4-f575-4192-94f6-68fc85189937.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>81vuibe8z7</Fingerprint>
+      <Integrity>ZMkDAw9NNU/jfvFiTNHmd+xEV4U5igitXwYPHtzy2us=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b74f91d4-f575-4192-94f6-68fc85189937.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b76e2ea3-f084-4831-bdd1-306edfedbb8c.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/b76e2ea3-f084-4831-bdd1-306edfedbb8c.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f4xhu752yv</Fingerprint>
+      <Integrity>7+vN8MOGXUkXOampcrdFu4vYlDL2c8kz5yGl/lhoPFw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b76e2ea3-f084-4831-bdd1-306edfedbb8c.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c0f32287-df7a-4bb1-be7c-233de32fe55c.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopStoreShop</SourceId>
@@ -35207,6 +35873,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c0f32287-df7a-4bb1-be7c-233de32fe55c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c4cdf429-5866-4046-bb78-f73e491ba95f.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/c4cdf429-5866-4046-bb78-f73e491ba95f.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zz05lh64f7</Fingerprint>
+      <Integrity>Tw3RsfGwwS1g7P9Mse5zaZIjLTahY0V+0Xw049EgrRQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c4cdf429-5866-4046-bb78-f73e491ba95f.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c75c8227-c84c-43a4-a6e5-95b9ecb2c765.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/c75c8227-c84c-43a4-a6e5-95b9ecb2c765.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fy48y1vrg8</Fingerprint>
+      <Integrity>F4ErqI6cbKhKPvcFf3erD2pSbFK4+KqQ3L2sYeXi4Cs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c75c8227-c84c-43a4-a6e5-95b9ecb2c765.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cd987cdd-42cc-4324-b975-2ad8af818f2f.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/cd987cdd-42cc-4324-b975-2ad8af818f2f.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zz05lh64f7</Fingerprint>
+      <Integrity>Tw3RsfGwwS1g7P9Mse5zaZIjLTahY0V+0Xw049EgrRQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cd987cdd-42cc-4324-b975-2ad8af818f2f.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cd9e4ba8-c2f8-44ef-bc72-9f85a268f8e7.jpg'))">
       <SourceType>Package</SourceType>
@@ -35262,6 +35982,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d0060a08-00bf-4ea6-ba46-0fea62b1f600.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d91bc9d9-3edb-41d1-b636-70b374d562b2.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/d91bc9d9-3edb-41d1-b636-70b374d562b2.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>523ve410o1</Fingerprint>
+      <Integrity>w3ANXbU95oTjYXMYFE+wirdyezTnkJa/tzAbigH6CFk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d91bc9d9-3edb-41d1-b636-70b374d562b2.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dddac8dd-9446-413d-afc6-eea402633b9a.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/dddac8dd-9446-413d-afc6-eea402633b9a.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>olefgb1tpc</Fingerprint>
+      <Integrity>rGN/r3P5sxsqTRUI09IljusvBV4MVLgbogBpouc/C88=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dddac8dd-9446-413d-afc6-eea402633b9a.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e2492b1a-5297-4e30-acc1-082860147e8d.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>LaptopStoreShop</SourceId>
@@ -35279,6 +36035,78 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e2492b1a-5297-4e30-acc1-082860147e8d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e965d635-6db3-4f18-98c1-022ca712a9e3.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/e965d635-6db3-4f18-98c1-022ca712a9e3.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kw17hmmmd7</Fingerprint>
+      <Integrity>ZK6QHBrpLaxhC2JXJEx1gb8WMZYie7LGAZ26lDgblk8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e965d635-6db3-4f18-98c1-022ca712a9e3.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\eba1b929-fb36-4b80-b388-e5c922d9e246.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/eba1b929-fb36-4b80-b388-e5c922d9e246.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6yhtugpttz</Fingerprint>
+      <Integrity>Hu5OWLeo39YsW8sIcVpZA5Q0D/jbWUaRNOZtiT4u9BI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\eba1b929-fb36-4b80-b388-e5c922d9e246.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f19f964d-ec03-43c1-b5fd-c7fc25839b8f.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/f19f964d-ec03-43c1-b5fd-c7fc25839b8f.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>96u8n9s27x</Fingerprint>
+      <Integrity>Pzp/CXbjLeGAUCJVFpxZjPJTao5MzChj5ykSNflh820=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f19f964d-ec03-43c1-b5fd-c7fc25839b8f.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f8f22f51-6b28-48c0-b119-4d15171930cd.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LaptopStoreShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LaptopStoreShop</BasePath>
+      <RelativePath>uploads/f8f22f51-6b28-48c0-b119-4d15171930cd.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1g516i6sgn</Fingerprint>
+      <Integrity>0X9vBwvXZ4AXnnjOu1nQmmZO56ja18l4h/28UFsvwkA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f8f22f51-6b28-48c0-b119-4d15171930cd.webp'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

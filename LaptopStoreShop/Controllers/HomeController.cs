@@ -16,6 +16,7 @@ namespace LaptopStoreShop.Controllers
 
         public IActionResult Index()
         {
+            ViewData["ActivePage"] = "Home";
             var products = _context.Laptops
                 .Include(l => l.Category)
                 .Include(l => l.LaptopImages)

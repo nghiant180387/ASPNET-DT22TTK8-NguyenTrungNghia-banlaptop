@@ -1,0 +1,65 @@
+﻿<style>
+	.map-container {
+		margin-top: 20px;
+		height: 100vh;
+	}
+
+		.map-container iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+</style>
+<section class="contact_area section_gap_bottom">
+	<div class="container">
+		<div class="map-container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.6607044647614!2d106.6047!3d10.7375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ0JzE1LjAiTiAxMDbCsDM2JzE2LjkiRQ!5e0!3m2!1sen!2s!4v1700000000000" allowfullscreen></iframe>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+		<div class="row" style="padding-top: 20px; padding-bottom: 20px">
+			<div class="col-lg-3">
+				<div class="contact_info">
+					<div class="info_item">
+						<i class="lnr lnr-home"></i>
+						<h6>Thành phố Hồ Chính Minh, Hà Nội</h6>
+					</div>
+					<div class="info_item">
+						<i class="lnr lnr-phone-handset"></i>
+						<h6><a href="#">0367.431.233</a></h6>
+						<p>Mở cửa từ 8h sáng đến 8h các ngày trong tuần</p>
+					</div>
+					<div class="info_item">
+						<i class="lnr lnr-envelope"></i>
+						<h6><a href="#">support@shoestore.com</a></h6>
+						<p>Gửi yêu cầu của bạn cho chúng tôi!</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-9">
+				<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+					<div class="col-md-6">
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Tên của bạn" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Nhập Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="Tiêu đề" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<textarea class="form-control" name="message" id="message" rows="1" placeholder="Nội dung" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"></textarea>
+						</div>
+					</div>
+					<div class="col-md-12 text-right">
+						<button type="submit" value="submit" class="primary-btn">Gửi tin nhắn</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>

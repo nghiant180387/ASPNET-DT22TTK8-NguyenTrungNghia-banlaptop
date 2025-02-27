@@ -1,7 +1,7 @@
 ﻿@model Brand
 
 @{
-    ViewData["Title"] = "Thêm danh mục";
+	ViewData["Title"] = "Thêm thương hiệu mới";
 }
 
 <div class="container">
@@ -9,13 +9,13 @@
         <div class="col-md-6 offset-md-3">
             <div class="card shadow">
                 <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Thêm danh mục mới</h4>
+                    <h4 class="mb-0">Thêm thương hiệu mới</h4>
                 </div>
                 <div class="card-body">
                     <form asp-action="Create" method="post">
                         <div class="mb-3">
-                            <label asp-for="BrandName" class="form-label">Tên danh mục</label>
-                            <input asp-for="BrandName" class="form-control" placeholder="Nhập tên danh mục" required />
+                            <label asp-for="BrandName" class="form-label">Tên thương hiệu</label>
+                            <input asp-for="BrandName" class="form-control" placeholder="Nhập thương hiệu" required />
                             <span asp-validation-for="BrandName" class="text-danger"></span>
                         </div>
 

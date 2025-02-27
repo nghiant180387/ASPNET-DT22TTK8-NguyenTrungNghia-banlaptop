@@ -1,13 +1,16 @@
 ﻿using LaptopStoreShop.Data;
 using LaptopStoreShop.Models;
+using LaptopStoreShop.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 public class LoginController : Controller
 {
     private readonly ApplicationDbContext _context;
-    public LoginController(ApplicationDbContext context)
+    private readonly EmailService _emailService;
+    public LoginController(ApplicationDbContext context, EmailService emailService)
     {
         _context = context;
+        _emailService = emailService;
     }
     public IActionResult Index()
     {
@@ -46,22 +49,13 @@ public class LoginController : Controller
             HttpContext.Session.SetString("Name", user.FullName);
             HttpContext.Session.SetString("Role", user.Role);
 
-            if (user.Role == "Admin")
-            {
-                return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
-            }
-            else if (user.Role == "User")
-            {
-                return RedirectToAction("Index", "Home");
-            }
+             return RedirectToAction("Index", "Home");
         }
         else
         {
             ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             return View("Index");
         }
-
-        return View("Index");
     }
 
     [HttpPost]
@@ -97,5 +91,67 @@ public class LoginController : Controller
     {
         HttpContext.Session.Clear();
         return RedirectToAction("Index", "Home");
+    }
+    public IActionResult ForgotPassword()
+    {
+        return View();
+    }
+    [HttpPost]
+    public async Task<IActionResult> ForgotPassword(string email)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+
+        if (user == null)
+        {
+            return Json(new { success = false, message = "Email không tồn tại!" });
+        }
+
+        user.ResetPasswordToken = Guid.NewGuid().ToString();
+        user.ResetTokenExpires = DateTime.Now.AddHours(1);
+        await _context.SaveChangesAsync();
+
+        string resetLink = Url.Action("ResetPassword", "Login", new { token = user.ResetPasswordToken }, Request.Scheme);
+
+        await _emailService.SendEmailAsync(user.Email, "Đặt lại mật khẩu", $"Click vào link để đặt lại mật khẩu: {resetLink}");
+
+        TempData["Message"] = "Hướng dẫn đặt lại mật khẩu đã được gửi đến email của bạn.";
+        return RedirectToAction("Index", "Home");
+    }
+    [HttpGet]
+    public async Task<IActionResult> ResetPassword(string token)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.ResetPasswordToken == token && u.ResetTokenExpires > DateTime.Now);
+
+        if (user == null)
+        {
+            return View("Error");
+        }
+
+        return View(new ResetPassword { Token = token });
+    }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> ResetPassword(ResetPassword model)
+    {
+        if (ModelState.IsValid)
+        {
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.ResetPasswordToken == model.Token);
+
+            if (user != null)
+            {
+                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password);
+                user.ResetPasswordToken = null;
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction("Index", "Login");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Token không hợp lệ hoặc đã hết hạn.");
+            }
+        }
+
+        return View(model);
     }
 }

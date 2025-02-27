@@ -17,82 +17,97 @@
 		</div>
 	</div>
 </div>
-
-<div class="section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-7">
-				<div class="billing-details">
-					<div class="section-title">
-						<h3 class="title">Thông tin thanh toán</h3>
-					</div>
-					<div class="form-group">
-						<input class="input" type="text" name="name" placeholder="Họ và tên">
-					</div>
-					<div class="form-group">
-						<input class="input" type="email" name="email" placeholder="Email">
-					</div>
-					<div class="form-group">
-						<input class="input" type="text" name="address" placeholder="Địa chỉ">
-					</div>
-					<div class="form-group">
-						<input class="input" type="tel" name="phone" placeholder="Số điện thoại">
+<form method="post" asp-action="Checkout" asp-controller="Payment">
+	<input type="hidden" name="OrderType" value="other" />
+	<input type="hidden" name="OrderDescription" value="Thanh toán sản phẩm của Laptop Store" />
+	<input type="hidden" name="OrderInformation" value="Thanh toán sản phẩm của Laptop Store" />
+	<input type="hidden" name="Amount" value="@Model.Sum(item => item.Price * item.Quantity).ToString("N0")" />
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="billing-details">
+						<div class="section-title">
+							<h3 class="title">Thông tin thanh toán</h3>
+						</div>
+						<div class="form-group">
+							<input class="input" type="text" name="FullName" placeholder="Họ và tên">
+						</div>
+						<div class="form-group">
+							<input class="input" type="email" name="email" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<input class="input" type="text" name="address" placeholder="Địa chỉ">
+						</div>
+						<div class="form-group">
+							<input class="input" type="tel" name="phone" placeholder="Số điện thoại">
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="col-md-5 order-details">
-				<div class="section-title text-center">
-					<h3 class="title">Thông tin đơn hàng</h3>
-				</div>
-				<div class="order-summary">
-					<div class="order-col">
-						<div><strong>Sản phẩm</strong></div>
-						<div><strong>Giá tiền</strong></div>
+				<div class="col-md-5 order-details">
+					<div class="section-title text-center">
+						<h3 class="title">Thông tin đơn hàng</h3>
+					</div>
+					<div class="order-summary">
+						<div class="order-col">
+							<div><strong>Sản phẩm</strong></div>
+							<div><strong>Giá tiền</strong></div>
+						</div>
+
+						<div class="order-products">
+							@foreach (var item in Model)
+							{
+								<div class="order-col">
+									<img src="@item.ImageUrl" alt="@item.Name" style="width: 80px; height: 80px" />
+									<div>@item.Quantity x @item.Name</div>
+									<div>@item.Price.ToString("N0") VNĐ</div>
+								</div>
+							}
+						</div>
+
+						<div class="order-col">
+							<div><strong>Tổng tiền</strong></div>
+							<div><strong class="order-total">@Model.Sum(x => x.Quantity * x.Price).ToString("N0") VNĐ</strong></div>
+						</div>
 					</div>
 
-					<div class="order-products">
-						@foreach (var item in Model)
-						{
-							<div class="order-col">
-								<img src="@item.ImageUrl" alt="@item.Name" style="width: 80px; height: 80px" />
-								<div>@item.Quantity x @item.Name</div>
-								<div>@item.Price VNĐ</div>
+					<div class="payment-method">
+						<div style="margin-bottom: 10px"><strong>Phương thức thanh toán</strong></div>
+						<div class="input-radio">
+							<input type="radio" name="PaymentMethod" value="vnpay" id="payment-1">
+							<label for="payment-1">
+								<span></span>
+								Thanh toán VNPay
+							</label>
+							<div class="caption">
+								<p>Giao hàng trong vòng 3-5 ngày.</p>
 							</div>
-						}
-					</div>
-
-					<div class="order-col">
-						<div><strong>Tổng tiền</strong></div>
-						<div><strong class="order-total">@Model.Sum(x => x.Quantity * x.Price) VNĐ</strong></div>
-					</div>
-				</div>
-
-				<div class="payment-method">
-					<div style="margin-bottom: 10px"><strong>Phương thức thanh toán</strong></div>
-					<div class="input-radio">
-						<input type="radio" name="payment" id="payment-1">
-						<label for="payment-1">
-							<span></span>
-							Thanh toán VNPay
-						</label>
-						<div class="caption">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<div class="input-radio">
+							<input type="radio" name="PaymentMethod" value="momo" id="payment-2">
+							<label for="payment-2">
+								<span></span>
+								Thanh toán Momo
+							</label>
+							<div class="caption">
+								<p>Giao hàng trong vòng 3-5 ngày.</p>
+							</div>
+						</div>
+						<div class="input-radio">
+							<input type="radio" name="PaymentMethod" value="cod" id="payment-3">
+							<label for="payment-3">
+								<span></span>
+								COD
+							</label>
+							<div class="caption">
+								<p>Thanh toán khi nhận hàng.</p>
+							</div>
 						</div>
 					</div>
-					<div class="input-radio">
-						<input type="radio" name="payment" id="payment-2">
-						<label for="payment-2">
-							<span></span>
-							Thanh toán Momo
-						</label>
-						<div class="caption">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
+					<button type="submit" class="primary-btn order-submit">Thanh toán</button>
 				</div>
-				<a href="#" class="primary-btn order-submit">Thanh toán</a>
 			</div>
 		</div>
 	</div>
-</div>
+</form>

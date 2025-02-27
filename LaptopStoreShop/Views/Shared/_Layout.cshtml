@@ -15,6 +15,47 @@
    
 
 </head>
+<style>
+    .toast-container {
+        position: fixed;
+        top: 150px;
+        right: 20px;
+        z-index: 9999;
+    }
+
+    .custom-toast {
+        display: none; /* Ẩn mặc định */
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        min-width: 250px;
+        max-width: 400px;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .toast-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .close-btn {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .show-toast {
+        display: block !important;
+        opacity: 1 !important;
+    }
+</style>
 <body>
     <div class="body-wrapper">
         @if (ViewData["Title"] == "Login" || ViewData["Title"] == "Register")
@@ -25,10 +66,59 @@
         else
         {            
             @await Html.PartialAsync("_HeaderPartial")
+            <div class="toast-container">
+                <div id="liveToast" class="custom-toast">
+                    <div class="toast-header">
+                        <strong>Thông báo hệ thống Laptop Store</strong>
+                        <button type="button" class="close-btn" onclick="closeToast()">×</button>
+                    </div>
+                    <div class="toast-body" id="toast-body"></div>
+                </div>
+            </div>
             @RenderBody()
             @await Html.PartialAsync("_FooterPartial")
         }
     </div>
+    <script>
+               function showToast(message, type = "success") {
+            var toastBody = document.getElementById("toast-body");
+            var toastElement = document.getElementById("liveToast");
+
+            toastBody.innerHTML = message;
+
+            if (type === "success") {
+                toastElement.style.backgroundColor = "#28a745"; // Màu xanh lá
+            } else if (type === "error") {
+                toastElement.style.backgroundColor = "#dc3545"; // Màu đỏ
+            }
+
+            toastElement.classList.add("show-toast");
+
+            // Tự động ẩn sau 3 giây
+            setTimeout(function () {
+                closeToast();
+            }, 3000);
+        }
+
+        function closeToast() {
+            var toastElement = document.getElementById("liveToast");
+            toastElement.classList.remove("show-toast");
+        }
+
+        // Kiểm tra TempData từ Razor để hiển thị thông báo khi tải trang
+        window.onload = function () {
+            var successMessage = "@Html.Raw(TempData["success"])";
+            var errorMessage = "@Html.Raw(TempData["error"])";
+
+            if (successMessage && successMessage !== "null") {
+                showToast(successMessage, "success");
+            } else if (errorMessage && errorMessage !== "null") {
+                showToast(errorMessage, "error");
+            }
+        };
+
+    </script>
+
 
     @* Start Javascript *@
     <script src="~/assets/js/jquery.min.js"></script>

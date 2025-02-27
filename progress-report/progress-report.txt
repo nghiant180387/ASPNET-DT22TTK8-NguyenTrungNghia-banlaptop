@@ -16,3 +16,9 @@ Tuần 3:
 - Hiển thị sản phẩm.
 - Chi tiết sản phẩm.
 - Thêm vào giỏ hàng.
+Tuần 4:
+- Hoàn thành tính năng tạo, quản lý đơn hàng
+- Thanh toán VNPay và Momo
+- thống kê 
+- hoàn thiện website
+- fix bug

@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = "";
+}
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Login</title>
+    <title>Laptop Store - Đăng nhập</title>
 
     <!-- Custom fonts for this template-->
     <link href="~/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -20,85 +23,80 @@
     <link href="~/admin/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
+<style>
+    .gradient-custom {
+        /* fallback for old browsers */
+        background: #6a11cb;
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+</style>
+<body >
+    <section class="vh-100 gradient-custom">
+        @if (TempData["Success"] != null || TempData["Error"] != null)
+        {
+            <div class="position-fixed top-0 start-50 translate-middle-x mt-3" style="z-index: 1050; min-width: 300px;">
+                @if (TempData["Success"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show shadow-lg" role="alert">
+                        <i class="fas fa-check-circle me-2"></i> @TempData["Success"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
 
-<body class="bg-gradient-primary">
+                @if (TempData["Error"] != null)
+                {
+                    <div class="alert alert-danger alert-dismissible fade show shadow-lg" role="alert">
+                        <i class="fas fa-exclamation-triangle me-2"></i> @TempData["Error"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+            </div>
+        }
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                        <div class="card-body p-5 text-center">
 
-    <div class="container">
+                            <div class="mb-md-5 mt-md-4 pb-5">
 
-        <!-- Outer Row -->
-        <div class="row justify-content-center">
-
-            <div class="col-xl-10 col-lg-12 col-md-9">
-
-                <div class="card o-hidden border-0 shadow-lg my-5">
-                    <div class="card-body p-0">
-                        <!-- Nested Row within Card Body -->
-                        <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-                            <div class="col-lg-6">
-                                <div class="p-5">
-                                    <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                <h2 class="fw-bold mb-2 text-uppercase">Đăng nhập</h2>
+                                <p class="text-white-50 mb-5">Nhập email và mật khẩu để đăng nhập!</p>
+                                <form method="post" asp-action="Login" asp-controller="Login">
+                                    <div data-mdb-input-init class="form-outline form-white mb-4">
+                                        <input type="email" name="email" id="typeEmailX" class="form-control form-control-lg" />
+                                        <label class="form-label" for="typeEmailX">Email</label>
                                     </div>
-                                    <form class="user">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control form-control-user"
-                                                   id="exampleInputEmail" aria-describedby="emailHelp"
-                                                   placeholder="Enter Email Address...">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control form-control-user"
-                                                   id="exampleInputPassword" placeholder="Password">
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">
-                                                    Remember
-                                                    Me
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                            Login
-                                        </a>
-                                        <hr>
-                                        <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Login with Google
-                                        </a>
-                                        <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                                        </a>
-                                    </form>
-                                    <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
+
+                                    <div data-mdb-input-init class="form-outline form-white mb-4">
+                                        <input type="password" name="password" id="typePasswordX" class="form-control form-control-lg" />
+                                        <label class="form-label" for="typePasswordX">Mật khẩu</label>
                                     </div>
-                                    <div class="text-center">
-                                        <a class="small" href="register.html">Create an Account!</a>
-                                    </div>
-                                </div>
+
+                                    <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Quên mật khẩu?</a></p>
+
+                                    <button data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-lg px-5" type="submit">Đăng nhập</button>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
-    </div>
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="~/admin/vendor/jquery/jquery.min.js"></script>
-    <script src="~/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="~/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="~/admin/js/sb-admin-2.min.js"></script>
-
+    </section>
+    <script>
+        setTimeout(function () {
+            let alerts = document.querySelectorAll(".alert");
+            alerts.forEach(alert => {
+                alert.style.transition = "opacity 0.5s ease-out";
+                alert.style.opacity = "0";
+                setTimeout(() => alert.remove(), 500);
+            });
+        }, 3000);
+    </script>
 </body>
 
 </html>

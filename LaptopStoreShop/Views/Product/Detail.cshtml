@@ -56,26 +56,24 @@
 						</div>
 					</div>
 					<div>
-						<h3 class="product-price">@Model.Price VNĐ</h3>
-						<span class="product-available">Trong kho:</span> @Model.Stock
+						<h3 class="product-price">@Model.Price.ToString("N0") VNĐ</h3>
+						<span class="product-available">Trong kho:</span> @Model.Stock chiếc
 					</div>
 					<div class="add-to-cart d-flex">
-						<div class="qty-label">
-							Số lượng
-							<div class="input-number">
-								<input type="number" value=1 min=1 max=@Model.Stock>
-								<span class="qty-up">+</span>
-								<span class="qty-down">-</span>
+						<form id="addToCartForm" asp-controller="Payment" asp-action="AddToCart" method="post">
+							<div class="qty-label">
+								Số lượng
+								<div class="input-number">
+									<input name="qty" type="number" value="1" min="1">
+									<span class="qty-up">+</span>
+									<span class="qty-down">-</span>
+								</div>
 							</div>
-						</div>
-
-						<form id="addToCartForm" asp-controller="Payment" asp-action="AddToCart" method="post" style="padding-top: 15px;">
 							<input type="hidden" name="id" value="@Model.Id">
 							<input type="hidden" name="name" value="@Model.Name">
-							<input type="hidden" name="price" value="@Model.Price">
+							<input type="hidden" name="price" value="@Model.Price.ToString("N0")">
 							<input type="hidden" name="stock" value="@Model.Stock">
 							<input type="hidden" name="imageUrl" value="@Model.LaptopImages.FirstOrDefault()?.ImageUrl">
-							<input type="hidden" id="qtyHidden" name="qty" value="1">
 
 							<button type="submit" class="add-to-cart-btn">
 								<i class="fa fa-shopping-cart"></i> Thêm giỏ hàng
@@ -114,7 +112,7 @@
 						<div id="tab1" class="tab-pane fade in active">
 							<div class="row">
 								<div class="col-md-12">
-									<p>@Model.Description</p>
+									<p>@Html.Raw(@Model.Description)</p>
 								</div>
 							</div>
 						</div>
@@ -130,15 +128,46 @@
 </div>
 <!-- /SECTION -->
 <script>
+		// Lấy các phần tử DOM
+	const quantityInput = document.getElementById('quantityInput');
+	const qtyHidden = document.getElementById('qtyHidden');
+	const qtyUp = document.querySelector('.qty-up');
+	const qtyDown = document.querySelector('.qty-down');
+	const form = document.getElementById('addToCartForm');
 
-	document.addEventListener("DOMContentLoaded", function () {
-		const qtyInput = document.getElementById("qtyInput");
-		const addToCartBtn = document.getElementById("addToCartBtn");
+	// Lấy max từ thuộc tính max và chuyển thành số
+	const maxStock = parseInt(quantityInput.getAttribute('max')) || 1; // Nếu lỗi, mặc định là 1
+	const minStock = parseInt(quantityInput.getAttribute('min')) || 1;
 
-		qtyInput.addEventListener("input", function () {
-			let qty = qtyInput.value;
-			let newUrl = addToCartBtn.href.replace(/qty=\d+/, `qty=${qty}`);
-			addToCartBtn.href = newUrl;
-		});
+	// Cập nhật giá trị qtyHidden khi thay đổi input
+	quantityInput.addEventListener('input', function() {
+		let value = parseInt(this.value) || minStock; // Nếu không hợp lệ, dùng min
+		if (value < minStock) value = minStock;
+		if (value > maxStock) value = maxStock;
+		this.value = value;
+		qtyHidden.value = value;
+	});
+
+	// Tăng số lượng khi nhấn nút "+"
+	qtyUp.addEventListener('click', function() {
+		let value = parseInt(quantityInput.value) + 1;
+		if (value <= maxStock) {
+			quantityInput.value = value;
+			qtyHidden.value = value;
+		}
+	});
+
+	// Giảm số lượng khi nhấn nút "-"
+	qtyDown.addEventListener('click', function() {
+		let value = parseInt(quantityInput.value) - 1;
+		if (value >= minStock) {
+			quantityInput.value = value;
+			qtyHidden.value = value;
+		}
+	});
+
+	// Đảm bảo qtyHidden được cập nhật trước khi gửi form
+	form.addEventListener('submit', function(e) {
+		qtyHidden.value = quantityInput.value; // Đồng bộ giá trị trước khi gửi
 	});
 </script>
